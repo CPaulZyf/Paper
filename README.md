@@ -1,1 +1,1 @@
-# Paper
+# KDD 24 Paper
