@@ -98,7 +98,7 @@ class clientFedAPP(Client):
                 pre = model.head(rep)
                 predicted_classes = torch.argmax(pre, dim=1)
 
-                # 计算正确分类的个数
+                #
                 test_acc += ((predicted_classes == y).sum().item())
 
                 test_num += y.shape[0]
